@@ -1,0 +1,8 @@
+name = "muawiya-bot"
+main = "src/index.js"
+compatibility_date = "2026-11-09"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "muawiya-db"
+database_id = "10f6cdb3-b298-4c84-82bf-ef74e6787f33"
