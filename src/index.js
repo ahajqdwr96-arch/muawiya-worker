@@ -72,7 +72,7 @@ export default {
 
       return new Response("OK");
     } catch (error) {
-      console.error("Bot error:", error);
+      console.error("Bot error details:", String(error), error?.stack);
       return new Response("Internal Error", { status: 500 });
     }
   }
